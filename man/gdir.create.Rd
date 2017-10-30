@@ -1,0 +1,37 @@
+\name{gdir.create}
+\alias{gdir.create}
+\title{
+Creates a new directory in Genomic Database
+}
+\description{
+Creates a new directory in Genomic Database.
+}
+\usage{
+gdir.create(dir, showWarnings = TRUE, mode = "0777")
+}
+%- maybe also 'usage' for other objects documented here.
+\arguments{
+  \item{dir}{directory path}
+  \item{showWarnings}{see 'dir.create'}
+  \item{mode}{see 'dir.create'}
+}
+\details{
+This function creates a new directory in Genomic Database. Creates only the last element in the specified path.
+}
+\value{
+None.
+}
+\note{
+A new directory cannot be created within an existing track directory.
+}
+
+\seealso{
+\code{\link{dir.create}}, \code{\link{gdb.init}}, \code{\link{gdir.cwd}}, \code{\link{gdir.rm}}
+}
+\keyword{ ~db }
+\keyword{ ~data }
+\keyword{ ~database }
+\keyword{ ~dir }
+\keyword{ ~directory }
+\keyword{ ~folder }
+\keyword{ ~create }

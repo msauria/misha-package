@@ -1,0 +1,7 @@
+useDynLib(misha)
+exportPattern("^[[:alpha:]]+")
+exportPattern("^[\\.[:alpha:]]+")
+export(.gintervals.is1d, .gintervals.is2d, .gtrack.prepare.pvals)
+export(.gdb.convert_attrs)
+export(.gdb.convert_tracks)
+
